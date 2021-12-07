@@ -6,6 +6,7 @@ with open("day_7/input.txt") as file:
 
 sys.setrecursionlimit(10 ** 6)
 
+
 @functools.lru_cache(None)
 def cost(n: int) -> int:
     if n == 0:

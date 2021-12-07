@@ -16,7 +16,7 @@ for day in range(ITERATIONS):
             new_fishes += 1
         else:
             fishes[i] -= 1
-    
+
     fishes.extend([8] * new_fishes)
 
     print(f"Computed day {day + 1} in {(time.time_ns() - start_time) * 10e-9:.4f}s")

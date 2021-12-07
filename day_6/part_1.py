@@ -12,7 +12,7 @@ for _ in range(ITERATIONS):
             new_fishes += 1
         else:
             fishes[i] -= 1
-    
+
     fishes.extend([8] * new_fishes)
 
 print(len(fishes))

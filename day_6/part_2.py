@@ -17,7 +17,7 @@ for day in range(ITERATIONS):
 
     for i in range(8):
         global_state[i] = global_state[i + 1]
-    
+
     # New fishes staring at eight
     global_state[8] = new_fishes
     # Old fishes starting back to six

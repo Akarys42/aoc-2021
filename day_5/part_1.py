@@ -12,7 +12,10 @@ def interval(a: int, b: int) -> range:
 
 
 with open("day_5/input.txt") as file:
-    INPUT = [[Point(*(int(n) for n in pair.split(","))) for pair in line.split(" -> ")] for line in file.readlines()]
+    INPUT = [
+        [Point(*(int(n) for n in pair.split(","))) for pair in line.split(" -> ")]
+        for line in file.readlines()
+    ]
 
 board = {}
 
@@ -21,7 +24,7 @@ for p1, p2 in INPUT:
     if p1.x == p2.x:
         for i in interval(p1.y, p2.y):
             board[(p1.x, i)] = board.get((p1.x, i), 0) + 1
-    
+
     # Vertical line
     elif p1.y == p2.y:
         for i in interval(p1.x, p2.x):
