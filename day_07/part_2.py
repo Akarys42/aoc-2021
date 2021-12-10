@@ -1,7 +1,7 @@
 import functools
 import sys
 
-with open("day_7/input.txt") as file:
+with open("day_07/input.txt") as file:
     INPUT = [int(n) for n in file.read().split(",")]
 
 sys.setrecursionlimit(10 ** 6)

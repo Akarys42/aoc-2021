@@ -1,4 +1,4 @@
-with open("day_1/input.txt") as file:
+with open("day_01/input.txt") as file:
     INPUT = list(map(int, file.readlines()))
 
 previous = None

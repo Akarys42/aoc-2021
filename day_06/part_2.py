@@ -1,6 +1,6 @@
 import time
 
-with open("day_6/input.txt") as file:
+with open("day_06/input.txt") as file:
     INPUT = [int(state) for state in file.read().split(",")]
 
 ITERATIONS = 256

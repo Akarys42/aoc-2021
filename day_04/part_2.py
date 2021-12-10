@@ -2,7 +2,7 @@ from typing import Optional
 import itertools
 
 
-with open("day_4/input.txt") as file:
+with open("day_04/input.txt") as file:
     INPUT = [int(num) for num in file.readline().split(",")]
 
     # Consume the empty line
@@ -37,12 +37,23 @@ def check_board(board: Board) -> bool:
     return False
 
 
+total_won = 0
+TOTAL_BOARDS = len(BOARDS)
+
 for number in INPUT:
-    for board in BOARDS:
+    for i, board in enumerate(BOARDS):
+        if not board:
+            continue
+
         mark_board(board, number)
 
         if check_board(board):
-            print(
-                sum(num for num in itertools.chain(*board) if num is not None) * number
-            )
-            exit()
+            total_won += 1
+            BOARDS[i] = None
+
+            if total_won == TOTAL_BOARDS:
+                print(
+                    sum(num for num in itertools.chain(*board) if num is not None)
+                    * number
+                )
+                exit()

@@ -2,7 +2,7 @@ from functools import reduce
 import itertools
 from typing import Optional
 
-with open("day_8/input.txt") as file:
+with open("day_08/input.txt") as file:
     INPUT = [[part.split() for part in line.split(" | ")] for line in file.readlines()]
 
 # We note every segment as a bitmask to make things easier

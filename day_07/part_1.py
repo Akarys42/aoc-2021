@@ -1,6 +1,6 @@
 from statistics import median
 
-with open("day_7/input.txt") as file:
+with open("day_07/input.txt") as file:
     INPUT = [int(n) for n in file.read().split(",")]
 
 # The most optimal end position is the median of all starting positions

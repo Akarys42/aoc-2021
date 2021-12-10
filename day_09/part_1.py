@@ -1,6 +1,6 @@
 from itertools import product
 
-with open("day_9/input.txt") as file:
+with open("day_09/input.txt") as file:
     BOARD = [[int(n) for n in line.strip()] for line in file.readlines()]
 
 NEIGHBOURS = [(1, 0), (-1, 0), (0, 1), (0, -1)]

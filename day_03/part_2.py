@@ -1,4 +1,4 @@
-with open("day_3/input.txt") as file:
+with open("day_03/input.txt") as file:
     INPUT = file.readlines()
 
 life_support = INPUT.copy()

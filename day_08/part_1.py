@@ -2,7 +2,7 @@ from collections import Counter
 import re
 
 
-with open("day_8/input.txt") as file:
+with open("day_08/input.txt") as file:
     INPUT = re.sub(r".+ \|", "", file.read()).split()
 
 # This one is quite free, since all the digits we want
