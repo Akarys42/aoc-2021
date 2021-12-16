@@ -22,3 +22,4 @@ Here is a short description of each puzzle:
 - 13: Activating the infrared camera
 - 14: Creating the polymer for the submarine
 - 15: Pathfinding throught the chitons
+- 16: Decode BITS packages
