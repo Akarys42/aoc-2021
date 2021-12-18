@@ -12,14 +12,14 @@ Here is a short description of each puzzle:
 - 3: Reading the diagnosis
 - 4: Playing bingo against the octopus
 - 5: Avoiding the hydrothermal vents
-- 6: Counting lanterfishes
+- 6: Counting lanternfishes
 - 7: Digging a hole with the crabs
-- 8: Decoding the sevent segments display
+- 8: Decoding the seven segments display
 - 9: Finding basins in the cave
 - 10: Syntax checking
 - 11: Counting octopus flashes
-- 12: Counting pathes in the cave system
+- 12: Counting paths in the cave system
 - 13: Activating the infrared camera
 - 14: Creating the polymer for the submarine
-- 15: Pathfinding throught the chitons
+- 15: Pathfinding through the chitons
 - 16: Decode BITS packages
