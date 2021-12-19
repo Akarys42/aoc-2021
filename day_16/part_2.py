@@ -46,7 +46,7 @@ def parse_packet(start: int, end: Optional[int] = None) -> tuple[int, int]:
             for _ in range(size):
                 value, index = parse_packet(index, index + size)
                 values.append(value)
-        
+
         # Arthimetic operation
         match type_:
             case 0:

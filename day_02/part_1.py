@@ -1,4 +1,4 @@
-with open('day_02/input.txt') as file:
+with open("day_02/input.txt") as file:
     INPUT = [line.split() for line in file.readlines()]
 
 depth = 0
