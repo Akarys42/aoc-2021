@@ -24,3 +24,4 @@ Here is a short description of each puzzle:
 - 15: Pathfinding through the chitons
 - 16: Decode BITS packages
 - 17: Calculating the trajectory of torpedo probes
+- 18: Snailfish mathematics
