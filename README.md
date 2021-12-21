@@ -26,3 +26,4 @@ Here is a short description of each puzzle:
 - 17: Calculating the trajectory of torpedo probes
 - 18: Snailfish mathematics
 - 19: Mapping out scanners
+- 20: Enhancing the trench map
