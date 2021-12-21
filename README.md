@@ -27,3 +27,4 @@ Here is a short description of each puzzle:
 - 18: Snailfish mathematics
 - 19: Mapping out scanners
 - 20: Enhancing the trench map
+- 21: Playing dirac dice
