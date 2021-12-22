@@ -28,3 +28,4 @@ Here is a short description of each puzzle:
 - 19: Mapping out scanners
 - 20: Enhancing the trench map
 - 21: Playing dirac dice
+- 22: Rebooting the reactor
