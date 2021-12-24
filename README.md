@@ -30,3 +30,4 @@ Here is a short description of each puzzle:
 - 21: Playing dirac dice
 - 22: Rebooting the reactor
 - 23: Sending amphipods to their room
+- 24: Validating the submarine model number
